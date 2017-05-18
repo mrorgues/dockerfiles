@@ -10,9 +10,13 @@ Hence, docker 1.9+ is required.
 
 ## Build your own images
 
-All the images are available [here](https://hub.docker.com/u/mrorgues/).
+All the images are available [here](https://hub.docker.com/u/mrorgues/). Feel free to pull them!
+ex:
+```
+$ docker pull mrorgues/slack
+```
 
-However, feel free to build your own images!
+You don't want to use them? No problem! Feel free to build your own images!
 
 ###### Run the following command lines:
 
