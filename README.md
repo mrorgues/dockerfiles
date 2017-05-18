@@ -15,7 +15,7 @@ All the images are available [here](https://hub.docker.com/u/mrorgues/).
 ###### Run the following command lines:
 
 ```
-$ git clone git@github.com:mrorgues/dotckerfiles.git && cd dockerfiles/<PROJECT>
+$ git clone git@github.com:mrorgues/dockerfiles.git && cd dockerfiles/<PROJECT>
 $ docker login
 $ docker build --no-cache -f Dockerfile -t <DOCKER_HUB_REPO>/<PROJECT> .
 $ docker push <DOCKER_HUB_REPO>/<PROJECT>
