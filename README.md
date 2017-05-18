@@ -12,6 +12,8 @@ Hence, docker 1.9+ is required.
 
 All the images are available [here](https://hub.docker.com/u/mrorgues/).
 
+However, feel free to build your own images!
+
 ###### Run the following command lines:
 
 ```
