@@ -25,6 +25,7 @@ $ git clone https://github.com/mrorgues/dockerfiles.git && cd dockerfiles/<PROJE
 $ docker login
 $ docker build --no-cache -f Dockerfile -t <DOCKER_HUB_REPO>/<PROJECT> .
 $ docker push <DOCKER_HUB_REPO>/<PROJECT>
+
 ```
 
 ## More information
