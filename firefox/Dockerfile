@@ -29,7 +29,7 @@ LABEL github "https://github.com/mrorgues"
 #=================#
 COPY local.conf /etc/fonts/local.conf
 
-ARG DEFAULT_LANGUAGE=en_US
+ARG DEFAULT_LANGUAGE=fr_FR
 
 ENV LANG ${DEFAULT_LANGUAGE}".UTF-8"
 ENV LOCALE_GEN ${DEFAULT_LANGUAGE}".UTF-8 UTF-8"
@@ -56,7 +56,7 @@ RUN apt-get update && \
 #=========#
 # Firefox #
 #=========#
-ARG FIREFOX_LOCALE=firefox-locale-en
+ARG FIREFOX_LOCALE=firefox-locale-fr
 
 RUN apt-get update && \
     apt-get install -y \
