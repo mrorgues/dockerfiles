@@ -36,9 +36,6 @@ ENV LOCALE_GEN ${DEFAULT_LANGUAGE}".UTF-8 UTF-8"
 
 RUN apt-get update && \
     apt-get install -y \
-    apt-transport-https \
-    dirmngr \
-    gnupg \
     ca-certificates \
     hicolor-icon-theme \
     libasound2 \
