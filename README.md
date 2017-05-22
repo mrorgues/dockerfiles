@@ -24,6 +24,8 @@ You don't want to use them? No problem! Feel free to build your own images!
 $ git clone https://github.com/mrorgues/dockerfiles.git && cd dockerfiles/<PROJECT>
 $ docker login
 $ docker build --no-cache -f Dockerfile -t <DOCKER_HUB_REPO>/<PROJECT> .
+$ # Or
+$ docker build --no-cache --build-arg MY_VAR=my_value -f Dockerfile -t <DOCKER_HUB_REPO>/<PROJECT> .
 $ docker push <DOCKER_HUB_REPO>/<PROJECT>
 
 ```
