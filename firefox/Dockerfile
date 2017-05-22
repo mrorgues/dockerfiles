@@ -39,9 +39,9 @@ RUN apt-get update && \
     ca-certificates \
     hicolor-icon-theme \
     libasound2 \
+    libcanberra-gtk3-module \
     libgl1-mesa-dri \
     libgl1-mesa-glx \
-    libcanberra-gtk3-module \
     locales \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/* && \
