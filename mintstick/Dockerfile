@@ -5,9 +5,20 @@ LABEL github "https://github.com/mrorgues"
 #============================#
 # Information & Requirements #
 #============================#
-# *** Base for: ***
-# * https://github.com/mrorgues/dockerfiles/blob/master/mintstick/usb-image-writer/Dockerfile
-# * https://github.com/mrorgues/dockerfiles/blob/master/mintstick/usb-stick-formatter/Dockerfile
+# *** Run mintstick in a container ***
+#     (USB Image Writer)
+#
+# docker run --rm -it \
+#   -v $HOME/iso/:$HOME/ \
+#   -v /etc/machine-id:/etc/machine-id \
+#   -v /tmp/.X11-unix:/tmp/.X11-unix \
+#   -e DISPLAY=unix$DISPLAY \
+#   -v /var/run:/var/run \
+#   -v /dev/bus/usb:/dev/bus/usb \
+#   --privileged \
+#   --net host \
+#   --name mintstick \
+#   mrorgues/mintstick
 
 
 #========#
@@ -53,3 +64,9 @@ RUN buildDeps='curl' && \
     dpkg -i /tmp/mintstick_all.deb && \
     rm -rf /tmp/mintstick_all.deb && \
     apt-get purge -y --auto-remove $buildDeps
+
+
+#=============#
+# Here we go! #
+#=============#
+ENTRYPOINT ["/usr/bin/mintstick", "-m", "iso"]
