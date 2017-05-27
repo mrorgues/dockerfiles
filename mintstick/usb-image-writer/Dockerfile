@@ -9,7 +9,7 @@ LABEL github "https://github.com/mrorgues"
 #     (USB Image Writer)
 #
 # docker run --rm -it \
-#   -v $HOME/docker/iso/:$HOME/ \
+#   -v $HOME/iso/:$HOME/ \
 #   -v /etc/machine-id:/etc/machine-id \
 #   -v /tmp/.X11-unix:/tmp/.X11-unix \
 #   -e DISPLAY=unix$DISPLAY \
