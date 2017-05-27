@@ -2,6 +2,14 @@ FROM debian:stretch-slim
 LABEL github "https://github.com/mrorgues"
 
 
+#============================#
+# Information & Requirements #
+#============================#
+# *** Base for: ***
+# * https://github.com/mrorgues/dockerfiles/blob/master/mintstick/usb-image-writer/Dockerfile
+# * https://github.com/mrorgues/dockerfiles/blob/master/mintstick/usb-stick-formatter/Dockerfile
+
+
 #========#
 # Basics #
 #========#
