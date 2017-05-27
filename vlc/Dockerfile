@@ -32,7 +32,13 @@ RUN apk update && \
             dbus-libs \
             dbus-x11 \
             libxcb \
+            libxv \
+            mesa-dricore \
+            mesa-dri-ati \
+            mesa-dri-intel \
+            mesa-dri-nouveau \
             mesa-dri-swrast \
+            mesa-dri-vmwgfx \
             ttf-freefont \
             vlc \
             vlc-qt \
