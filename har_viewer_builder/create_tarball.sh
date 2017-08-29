@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+# Objective: Create a tarball of the "Har Viewer" Web Application. Please see: https://github.com/janodvarko/harviewer
+
 # Variables
 BRANCH_OR_TAG="2.0.17"
 
