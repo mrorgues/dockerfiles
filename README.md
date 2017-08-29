@@ -18,6 +18,22 @@ $ docker pull mrorgues/slack
 
 You don't want to use them? No problem! Feel free to build your own images!
 
+###### (Optional) Run the following command lines:
+
+The following command lines allow you to activate a user namespace. 
+More information here: https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine
+
+```
+$ sudo systemctl stop docker
+$ echo $USER":1000:1" | sudo tee -a /etc/subuid /etc/subgid
+$ cat <<EOF | sudo tee -a /etc/docker/daemon.json
+{                             
+        "userns-remap": $USER
+}  
+EOF
+$ sudo systemctl start docker
+```
+
 ###### Run the following command lines:
 
 ```
