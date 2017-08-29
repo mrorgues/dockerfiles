@@ -1,6 +1,7 @@
 FROM ubuntu:16.04
 LABEL github "https://github.com/mrorgues"
 
+
 #============================#
 # Information & Requirements #
 #============================#
@@ -13,7 +14,6 @@ LABEL github "https://github.com/mrorgues"
 #
 # 1. Original Project: https://github.com/janodvarko/harviewer
 # 2. Viewer: https://github.com/mrorgues/dockerfiles/blob/master/har_viewer/Dockerfile
-
 
 
 #============================#
@@ -35,10 +35,12 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   chmod +x /tmp/build.sh
 
+
 #=======#
 # Build #
 #=======#
 ENTRYPOINT [ "/tmp/build.sh" ]
+
 
 #=======#
 # Notes #
