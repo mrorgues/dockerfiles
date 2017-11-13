@@ -1,0 +1,488 @@
+!! fonts.alias -- automatically generated file.  DO NOT EDIT.
+!! To modify, see update-fonts-alias(8).
+!! /etc/X11/fonts/misc/xfonts-jmk.alias
+neep-iso8859-1-8	"-jmk-neep-medium-r-normal--10-80-75-75-c-50-iso8859-1"
+neep-iso8859-1-9	"-jmk-neep-medium-r-semicondensed--11-100-75-75-c-50-iso8859-1"
+neep-iso8859-1-10	"-jmk-neep-medium-r-normal--11-100-75-75-c-60-iso8859-1"
+neep-iso8859-1-12	"-jmk-neep-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+neep-iso8859-1-14	"-jmk-neep-medium-r-normal--15-140-75-75-c-80-iso8859-1"
+neep-iso8859-1-18	"-jmk-neep-medium-r-normal--20-180-75-75-c-100-iso8859-1"
+neep-iso8859-1-24	"-jmk-neep-medium-r-normal--24-240-75-75-c-120-iso8859-1"
+neep-iso8859-1-bold-9	"-jmk-neep-bold-r-semicondensed--11-100-75-75-c-50-iso8859-1"
+neep-iso8859-1-bold-10	"-jmk-neep-bold-r-normal--11-100-75-75-c-60-iso8859-1"
+neep-iso8859-1-bold-12	"-jmk-neep-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+neep-iso8859-1-bold-14	"-jmk-neep-bold-r-normal--15-140-75-75-c-80-iso8859-1"
+neep-iso8859-1-bold-18	"-jmk-neep-bold-r-normal--20-180-75-75-c-100-iso8859-1"
+neep-iso8859-1-bold-24	"-jmk-neep-bold-r-normal--24-240-75-75-c-120-iso8859-1"
+
+neep-alt-iso8859-1-8	"-jmk-neep alt-medium-r-normal--10-80-75-75-c-50-iso8859-1"
+neep-alt-iso8859-1-9	"-jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-1"
+neep-alt-iso8859-1-10	"-jmk-neep alt-medium-r-normal--11-100-75-75-c-60-iso8859-1"
+neep-alt-iso8859-1-12	"-jmk-neep alt-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+neep-alt-iso8859-1-14	"-jmk-neep alt-medium-r-normal--15-140-75-75-c-80-iso8859-1"
+neep-alt-iso8859-1-18	"-jmk-neep alt-medium-r-normal--20-180-75-75-c-100-iso8859-1"
+neep-alt-iso8859-1-24	"-jmk-neep alt-medium-r-normal--24-240-75-75-c-120-iso8859-1"
+neep-alt-iso8859-1-bold-9	"-jmk-neep alt-bold-r-semicondensed--11-100-75-75-c-50-iso8859-1"
+neep-alt-iso8859-1-bold-10	"-jmk-neep alt-bold-r-normal--11-100-75-75-c-60-iso8859-1"
+neep-alt-iso8859-1-bold-12	"-jmk-neep alt-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+neep-alt-iso8859-1-bold-14	"-jmk-neep alt-bold-r-normal--15-140-75-75-c-80-iso8859-1"
+neep-alt-iso8859-1-bold-18	"-jmk-neep alt-bold-r-normal--20-180-75-75-c-100-iso8859-1"
+neep-alt-iso8859-1-bold-24	"-jmk-neep alt-bold-r-normal--24-240-75-75-c-120-iso8859-1"
+
+neep-iso8859-2-8	"-jmk-neep-medium-r-normal--10-80-75-75-c-50-iso8859-2"
+neep-iso8859-2-9	"-jmk-neep-medium-r-semicondensed--11-100-75-75-c-50-iso8859-2"
+neep-iso8859-2-10	"-jmk-neep-medium-r-normal--11-100-75-75-c-60-iso8859-2"
+neep-iso8859-2-12	"-jmk-neep-medium-r-semicondensed--13-120-75-75-c-60-iso8859-2"
+neep-iso8859-2-14	"-jmk-neep-medium-r-normal--15-140-75-75-c-80-iso8859-2"
+neep-iso8859-2-18	"-jmk-neep-medium-r-normal--20-180-75-75-c-100-iso8859-2"
+neep-iso8859-2-24	"-jmk-neep-medium-r-normal--24-240-75-75-c-120-iso8859-2"
+neep-iso8859-2-bold-9	"-jmk-neep-bold-r-semicondensed--11-100-75-75-c-50-iso8859-2"
+neep-iso8859-2-bold-10	"-jmk-neep-bold-r-normal--11-100-75-75-c-60-iso8859-2"
+neep-iso8859-2-bold-12	"-jmk-neep-bold-r-semicondensed--13-120-75-75-c-60-iso8859-2"
+neep-iso8859-2-bold-14	"-jmk-neep-bold-r-normal--15-140-75-75-c-80-iso8859-2"
+neep-iso8859-2-bold-18	"-jmk-neep-bold-r-normal--20-180-75-75-c-100-iso8859-2"
+neep-iso8859-2-bold-24	"-jmk-neep-bold-r-normal--24-240-75-75-c-120-iso8859-2"
+
+neep-alt-iso8859-2-8	"-jmk-neep alt-medium-r-normal--10-80-75-75-c-50-iso8859-2"
+neep-alt-iso8859-2-9	"-jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-2"
+neep-alt-iso8859-2-10	"-jmk-neep alt-medium-r-normal--11-100-75-75-c-60-iso8859-2"
+neep-alt-iso8859-2-12	"-jmk-neep alt-medium-r-semicondensed--13-120-75-75-c-60-iso8859-2"
+neep-alt-iso8859-2-14	"-jmk-neep alt-medium-r-normal--15-140-75-75-c-80-iso8859-2"
+neep-alt-iso8859-2-18	"-jmk-neep alt-medium-r-normal--20-180-75-75-c-100-iso8859-2"
+neep-alt-iso8859-2-24	"-jmk-neep alt-medium-r-normal--24-240-75-75-c-120-iso8859-2"
+neep-alt-iso8859-2-bold-9	"-jmk-neep alt-bold-r-semicondensed--11-100-75-75-c-50-iso8859-2"
+neep-alt-iso8859-2-bold-10	"-jmk-neep alt-bold-r-normal--11-100-75-75-c-60-iso8859-2"
+neep-alt-iso8859-2-bold-12	"-jmk-neep alt-bold-r-semicondensed--13-120-75-75-c-60-iso8859-2"
+neep-alt-iso8859-2-bold-14	"-jmk-neep alt-bold-r-normal--15-140-75-75-c-80-iso8859-2"
+neep-alt-iso8859-2-bold-18	"-jmk-neep alt-bold-r-normal--20-180-75-75-c-100-iso8859-2"
+neep-alt-iso8859-2-bold-24	"-jmk-neep alt-bold-r-normal--24-240-75-75-c-120-iso8859-2"
+
+neep-iso8859-9-8	"-jmk-neep-medium-r-normal--10-80-75-75-c-50-iso8859-9"
+neep-iso8859-9-9	"-jmk-neep-medium-r-semicondensed--11-100-75-75-c-50-iso8859-9"
+neep-iso8859-9-10	"-jmk-neep-medium-r-normal--11-100-75-75-c-60-iso8859-9"
+neep-iso8859-9-12	"-jmk-neep-medium-r-semicondensed--13-120-75-75-c-60-iso8859-9"
+neep-iso8859-9-14	"-jmk-neep-medium-r-normal--15-140-75-75-c-80-iso8859-9"
+neep-iso8859-9-18	"-jmk-neep-medium-r-normal--20-180-75-75-c-100-iso8859-9"
+neep-iso8859-9-24	"-jmk-neep-medium-r-normal--24-240-75-75-c-120-iso8859-9"
+neep-iso8859-9-bold-9	"-jmk-neep-bold-r-semicondensed--11-100-75-75-c-50-iso8859-9"
+neep-iso8859-9-bold-10	"-jmk-neep-bold-r-normal--11-100-75-75-c-60-iso8859-9"
+neep-iso8859-9-bold-12	"-jmk-neep-bold-r-semicondensed--13-120-75-75-c-60-iso8859-9"
+neep-iso8859-9-bold-14	"-jmk-neep-bold-r-normal--15-140-75-75-c-80-iso8859-9"
+neep-iso8859-9-bold-18	"-jmk-neep-bold-r-normal--20-180-75-75-c-100-iso8859-9"
+neep-iso8859-9-bold-24	"-jmk-neep-bold-r-normal--24-240-75-75-c-120-iso8859-9"
+
+neep-alt-iso8859-9-8	"-jmk-neep alt-medium-r-normal--10-80-75-75-c-50-iso8859-9"
+neep-alt-iso8859-9-9	"-jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-9"
+neep-alt-iso8859-9-10	"-jmk-neep alt-medium-r-normal--11-100-75-75-c-60-iso8859-9"
+neep-alt-iso8859-9-12	"-jmk-neep alt-medium-r-semicondensed--13-120-75-75-c-60-iso8859-9"
+neep-alt-iso8859-9-14	"-jmk-neep alt-medium-r-normal--15-140-75-75-c-80-iso8859-9"
+neep-alt-iso8859-9-18	"-jmk-neep alt-medium-r-normal--20-180-75-75-c-100-iso8859-9"
+neep-alt-iso8859-9-24	"-jmk-neep alt-medium-r-normal--24-240-75-75-c-120-iso8859-9"
+neep-alt-iso8859-9-bold-9	"-jmk-neep alt-bold-r-semicondensed--11-100-75-75-c-50-iso8859-9"
+neep-alt-iso8859-9-bold-10	"-jmk-neep alt-bold-r-normal--11-100-75-75-c-60-iso8859-9"
+neep-alt-iso8859-9-bold-12	"-jmk-neep alt-bold-r-semicondensed--13-120-75-75-c-60-iso8859-9"
+neep-alt-iso8859-9-bold-14	"-jmk-neep alt-bold-r-normal--15-140-75-75-c-80-iso8859-9"
+neep-alt-iso8859-9-bold-18	"-jmk-neep alt-bold-r-normal--20-180-75-75-c-100-iso8859-9"
+neep-alt-iso8859-9-bold-24	"-jmk-neep alt-bold-r-normal--24-240-75-75-c-120-iso8859-9"
+
+neep-iso8859-15-8	"-jmk-neep-medium-r-normal--10-80-75-75-c-50-iso8859-15"
+neep-iso8859-15-9	"-jmk-neep-medium-r-semicondensed--11-100-75-75-c-50-iso8859-15"
+neep-iso8859-15-10	"-jmk-neep-medium-r-normal--11-100-75-75-c-60-iso8859-15"
+neep-iso8859-15-12	"-jmk-neep-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15"
+neep-iso8859-15-14	"-jmk-neep-medium-r-normal--15-140-75-75-c-80-iso8859-15"
+neep-iso8859-15-18	"-jmk-neep-medium-r-normal--20-180-75-75-c-100-iso8859-15"
+neep-iso8859-15-24	"-jmk-neep-medium-r-normal--24-240-75-75-c-120-iso8859-15"
+neep-iso8859-15-bold-9	"-jmk-neep-bold-r-semicondensed--11-100-75-75-c-50-iso8859-15"
+neep-iso8859-15-bold-10	"-jmk-neep-bold-r-normal--11-100-75-75-c-60-iso8859-15"
+neep-iso8859-15-bold-12	"-jmk-neep-bold-r-semicondensed--13-120-75-75-c-60-iso8859-15"
+neep-iso8859-15-bold-14	"-jmk-neep-bold-r-normal--15-140-75-75-c-80-iso8859-15"
+neep-iso8859-15-bold-18	"-jmk-neep-bold-r-normal--20-180-75-75-c-100-iso8859-15"
+neep-iso8859-15-bold-24	"-jmk-neep-bold-r-normal--24-240-75-75-c-120-iso8859-15"
+
+neep-alt-iso8859-15-8	"-jmk-neep alt-medium-r-normal--10-80-75-75-c-50-iso8859-15"
+neep-alt-iso8859-15-9	"-jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-15"
+neep-alt-iso8859-15-10	"-jmk-neep alt-medium-r-normal--11-100-75-75-c-60-iso8859-15"
+neep-alt-iso8859-15-12	"-jmk-neep alt-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15"
+neep-alt-iso8859-15-14	"-jmk-neep alt-medium-r-normal--15-140-75-75-c-80-iso8859-15"
+neep-alt-iso8859-15-18	"-jmk-neep alt-medium-r-normal--20-180-75-75-c-100-iso8859-15"
+neep-alt-iso8859-15-24	"-jmk-neep alt-medium-r-normal--24-240-75-75-c-120-iso8859-15"
+neep-alt-iso8859-15-bold-9	"-jmk-neep alt-bold-r-semicondensed--11-100-75-75-c-50-iso8859-15"
+neep-alt-iso8859-15-bold-10	"-jmk-neep alt-bold-r-normal--11-100-75-75-c-60-iso8859-15"
+neep-alt-iso8859-15-bold-12	"-jmk-neep alt-bold-r-semicondensed--13-120-75-75-c-60-iso8859-15"
+neep-alt-iso8859-15-bold-14	"-jmk-neep alt-bold-r-normal--15-140-75-75-c-80-iso8859-15"
+neep-alt-iso8859-15-bold-18	"-jmk-neep alt-bold-r-normal--20-180-75-75-c-100-iso8859-15"
+neep-alt-iso8859-15-bold-24	"-jmk-neep alt-bold-r-normal--24-240-75-75-c-120-iso8859-15"
+
+neep-iso10646-1-18	"-jmk-neep-medium-r-normal--20-180-75-75-c-100-iso10646-1"
+neep-iso10646-1-bold-18	"-jmk-neep-bold-r-normal--20-180-75-75-c-100-iso10646-1"
+neep-alt-iso10646-1-18	"-jmk-neep alt-medium-r-normal--20-180-75-75-c-100-iso10646-1"
+neep-alt-iso10646-1-bold-18	"-jmk-neep alt-bold-r-normal--20-180-75-75-c-100-iso10646-1"
+
+neep-8		neep-iso8859-1-8
+neep-9		neep-iso8859-1-9
+neep-10		neep-iso8859-1-10
+neep-12		neep-iso8859-1-12
+neep-14		neep-iso8859-1-14
+neep-18		neep-iso8859-1-18
+neep-24		neep-iso8859-1-24
+neep-bold-9	neep-iso8859-1-bold-9
+neep-bold-10	neep-iso8859-1-bold-10
+neep-bold-12	neep-iso8859-1-bold-12
+neep-bold-14	neep-iso8859-1-bold-14
+neep-bold-18	neep-iso8859-1-bold-18
+neep-bold-24	neep-iso8859-1-bold-24
+
+neep-alt-8	neep-alt-iso8859-1-8
+neep-alt-9	neep-alt-iso8859-1-9
+neep-alt-10	neep-alt-iso8859-1-10
+neep-alt-12	neep-alt-iso8859-1-12
+neep-alt-14	neep-alt-iso8859-1-14
+neep-alt-18	neep-alt-iso8859-1-18
+neep-alt-24	neep-alt-iso8859-1-24
+neep-alt-bold-9	neep-alt-iso8859-1-bold-9
+neep-alt-bold-10	neep-alt-iso8859-1-bold-10
+neep-alt-bold-12	neep-alt-iso8859-1-bold-12
+neep-alt-bold-14	neep-alt-iso8859-1-bold-14
+neep-alt-bold-18	neep-alt-iso8859-1-bold-18
+neep-alt-bold-24	neep-alt-iso8859-1-bold-24
+
+!neep-8		neep-iso8859-2-8
+!neep-9		neep-iso8859-2-9
+!neep-10		neep-iso8859-2-10
+!neep-12		neep-iso8859-2-12
+!neep-14		neep-iso8859-2-14
+!neep-18		neep-iso8859-2-18
+!neep-24		neep-iso8859-2-24
+!neep-bold-9	neep-iso8859-2-bold-9
+!neep-bold-10	neep-iso8859-2-bold-10
+!neep-bold-12	neep-iso8859-2-bold-12
+!neep-bold-14	neep-iso8859-2-bold-14
+!neep-bold-18	neep-iso8859-2-bold-18
+!neep-bold-24	neep-iso8859-2-bold-24
+!
+!neep-alt-8	neep-alt-iso8859-2-8
+!neep-alt-9	neep-alt-iso8859-2-9
+!neep-alt-10	neep-alt-iso8859-2-10
+!neep-alt-12	neep-alt-iso8859-2-12
+!neep-alt-14	neep-alt-iso8859-2-14
+!neep-alt-18	neep-alt-iso8859-2-18
+!neep-alt-24	neep-alt-iso8859-2-24
+!neep-alt-bold-9	neep-alt-iso8859-2-bold-9
+!neep-alt-bold-10	neep-alt-iso8859-2-bold-10
+!neep-alt-bold-12	neep-alt-iso8859-2-bold-12
+!neep-alt-bold-14	neep-alt-iso8859-2-bold-14
+!neep-alt-bold-18	neep-alt-iso8859-2-bold-18
+!neep-alt-bold-24	neep-alt-iso8859-2-bold-24
+!
+!neep-8		neep-iso8859-9-8
+!neep-9		neep-iso8859-9-9
+!neep-10		neep-iso8859-9-10
+!neep-12		neep-iso8859-9-12
+!neep-14		neep-iso8859-9-14
+!neep-18		neep-iso8859-9-18
+!neep-24		neep-iso8859-9-24
+!neep-bold-9	neep-iso8859-9-bold-9
+!neep-bold-10	neep-iso8859-9-bold-10
+!neep-bold-12	neep-iso8859-9-bold-12
+!neep-bold-14	neep-iso8859-9-bold-14
+!neep-bold-18	neep-iso8859-9-bold-18
+!neep-bold-24	neep-iso8859-9-bold-24
+!
+!neep-alt-8	neep-alt-iso8859-9-8
+!neep-alt-9	neep-alt-iso8859-9-9
+!neep-alt-10	neep-alt-iso8859-9-10
+!neep-alt-12	neep-alt-iso8859-9-12
+!neep-alt-14	neep-alt-iso8859-9-14
+!neep-alt-18	neep-alt-iso8859-9-18
+!neep-alt-24	neep-alt-iso8859-9-24
+!neep-alt-bold-9	neep-alt-iso8859-9-bold-9
+!neep-alt-bold-10	neep-alt-iso8859-9-bold-10
+!neep-alt-bold-12	neep-alt-iso8859-9-bold-12
+!neep-alt-bold-14	neep-alt-iso8859-9-bold-14
+!neep-alt-bold-18	neep-alt-iso8859-9-bold-18
+!neep-alt-bold-24	neep-alt-iso8859-9-bold-24
+!
+!neep-8		neep-iso8859-15-8
+!neep-9		neep-iso8859-15-9
+!neep-10		neep-iso8859-15-10
+!neep-12		neep-iso8859-15-12
+!neep-14		neep-iso8859-15-14
+!neep-18		neep-iso8859-15-18
+!neep-24		neep-iso8859-15-24
+!neep-bold-9	neep-iso8859-15-bold-9
+!neep-bold-10	neep-iso8859-15-bold-10
+!neep-bold-12	neep-iso8859-15-bold-12
+!neep-bold-14	neep-iso8859-15-bold-14
+!neep-bold-18	neep-iso8859-15-bold-18
+!neep-bold-24	neep-iso8859-15-bold-24
+!
+!neep-alt-8	neep-alt-iso8859-15-8
+!neep-alt-9	neep-alt-iso8859-15-9
+!neep-alt-10	neep-alt-iso8859-15-10
+!neep-alt-12	neep-alt-iso8859-15-12
+!neep-alt-14	neep-alt-iso8859-15-14
+!neep-alt-18	neep-alt-iso8859-15-18
+!neep-alt-24	neep-alt-iso8859-15-24
+!neep-alt-bold-9	neep-alt-iso8859-15-bold-9
+!neep-alt-bold-10	neep-alt-iso8859-15-bold-10
+!neep-alt-bold-12	neep-alt-iso8859-15-bold-12
+!neep-alt-bold-14	neep-alt-iso8859-15-bold-14
+!neep-alt-bold-18	neep-alt-iso8859-15-bold-18
+!neep-alt-bold-24	neep-alt-iso8859-15-bold-24
+
+modd-iso8859-1-10	"-jmk-modd-medium-r-normal--11-100-75-75-c-60-iso8859-1"
+modd-iso8859-1-12	"-jmk-modd-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+modd-iso8859-1-bold-10	"-jmk-modd-bold-r-normal--11-100-75-75-c-60-iso8859-1"
+modd-iso8859-1-bold-12	"-jmk-modd-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1"
+
+modd-10		modd-iso8859-1-10
+modd-12		modd-iso8859-1-12
+modd-bold-10	modd-iso8859-1-bold-10
+modd-bold-12	modd-iso8859-1-bold-12
+
+!! /etc/X11/fonts/misc/xfonts-terminus.alias
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Run the command `update-fonts-alias misc' if you edit this file. !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+terminus-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+terminus-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+terminus-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+terminus-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+terminus-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso10646-1
+terminus-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso10646-1
+terminus-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso10646-1
+terminus-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso10646-1
+terminus-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+terminus-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso10646-1
+terminus-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso10646-1
+terminus-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+terminus-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso10646-1
+terminus-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso10646-1
+terminus-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso10646-1
+terminus-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso10646-1
+terminus-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso10646-1
+terminus-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso10646-1
+terminus-cp1251-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-microsoft-cp1251
+terminus-cp1251-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-microsoft-cp1251
+terminus-cp1251-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-microsoft-cp1251
+terminus-cp1251-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-microsoft-cp1251
+terminus-cp1251-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-microsoft-cp1251
+terminus-cp1251-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-microsoft-cp1251
+terminus-cp1251-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-microsoft-cp1251
+terminus-cp1251-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-microsoft-cp1251
+terminus-cp1251-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-microsoft-cp1251
+terminus-cp1251-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-microsoft-cp1251
+terminus-cp1251-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-microsoft-cp1251
+terminus-cp1251-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-microsoft-cp1251
+terminus-cp1251-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-microsoft-cp1251
+terminus-cp1251-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-microsoft-cp1251
+terminus-cp1251-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-microsoft-cp1251
+terminus-cp1251-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-microsoft-cp1251
+terminus-cp1251-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-microsoft-cp1251
+terminus-cp1251-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-microsoft-cp1251
+terminus-pt154-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-paratype-pt154
+terminus-pt154-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-paratype-pt154
+terminus-pt154-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-paratype-pt154
+terminus-pt154-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-paratype-pt154
+terminus-pt154-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-paratype-pt154
+terminus-pt154-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-paratype-pt154
+terminus-pt154-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-paratype-pt154
+terminus-pt154-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-paratype-pt154
+terminus-pt154-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-paratype-pt154
+terminus-pt154-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-paratype-pt154
+terminus-pt154-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-paratype-pt154
+terminus-pt154-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-paratype-pt154
+terminus-pt154-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-paratype-pt154
+terminus-pt154-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-paratype-pt154
+terminus-pt154-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-paratype-pt154
+terminus-pt154-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-paratype-pt154
+terminus-pt154-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-paratype-pt154
+terminus-pt154-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-paratype-pt154
+terminus-koi8-r-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-koi8-r
+terminus-koi8-r-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-koi8-r
+terminus-koi8-r-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-koi8-r
+terminus-koi8-r-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-koi8-r
+terminus-koi8-r-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-koi8-r
+terminus-koi8-r-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-koi8-r
+terminus-koi8-r-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-koi8-r
+terminus-koi8-r-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-koi8-r
+terminus-koi8-r-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-koi8-r
+terminus-koi8-r-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-koi8-r
+terminus-koi8-r-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-koi8-r
+terminus-koi8-r-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-koi8-r
+terminus-koi8-r-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-koi8-r
+terminus-koi8-r-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-koi8-r
+terminus-koi8-r-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-koi8-r
+terminus-koi8-r-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-koi8-r
+terminus-koi8-r-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-koi8-r
+terminus-koi8-r-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-koi8-r
+terminus-koi8-u-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-koi8-u
+terminus-koi8-u-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-koi8-u
+terminus-koi8-u-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-koi8-u
+terminus-koi8-u-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-koi8-u
+terminus-koi8-u-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-koi8-u
+terminus-koi8-u-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-koi8-u
+terminus-koi8-u-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-koi8-u
+terminus-koi8-u-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-koi8-u
+terminus-koi8-u-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-koi8-u
+terminus-koi8-u-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-koi8-u
+terminus-koi8-u-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-koi8-u
+terminus-koi8-u-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-koi8-u
+terminus-koi8-u-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-koi8-u
+terminus-koi8-u-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-koi8-u
+terminus-koi8-u-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-koi8-u
+terminus-koi8-u-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-koi8-u
+terminus-koi8-u-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-koi8-u
+terminus-koi8-u-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-koi8-u
+terminus-iso8859-1-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+terminus-iso8859-1-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+terminus-iso8859-1-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-1
+terminus-iso8859-1-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-1
+terminus-iso8859-1-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-1
+terminus-iso8859-1-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-1
+terminus-iso8859-1-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-1
+terminus-iso8859-1-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-1
+terminus-iso8859-1-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-1
+terminus-iso8859-1-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-1
+terminus-iso8859-1-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-1
+terminus-iso8859-1-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-1
+terminus-iso8859-1-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-1
+terminus-iso8859-1-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-1
+terminus-iso8859-1-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-1
+terminus-iso8859-1-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-1
+terminus-iso8859-1-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-1
+terminus-iso8859-1-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-1
+terminus-iso8859-2-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-2
+terminus-iso8859-2-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-2
+terminus-iso8859-2-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-2
+terminus-iso8859-2-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-2
+terminus-iso8859-2-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-2
+terminus-iso8859-2-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-2
+terminus-iso8859-2-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-2
+terminus-iso8859-2-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-2
+terminus-iso8859-2-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-2
+terminus-iso8859-2-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-2
+terminus-iso8859-2-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-2
+terminus-iso8859-2-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-2
+terminus-iso8859-2-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-2
+terminus-iso8859-2-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-2
+terminus-iso8859-2-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-2
+terminus-iso8859-2-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-2
+terminus-iso8859-2-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-2
+terminus-iso8859-2-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-2
+terminus-iso8859-5-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-5
+terminus-iso8859-5-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-5
+terminus-iso8859-5-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-5
+terminus-iso8859-5-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-5
+terminus-iso8859-5-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-5
+terminus-iso8859-5-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-5
+terminus-iso8859-5-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-5
+terminus-iso8859-5-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-5
+terminus-iso8859-5-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-5
+terminus-iso8859-5-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-5
+terminus-iso8859-5-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-5
+terminus-iso8859-5-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-5
+terminus-iso8859-5-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-5
+terminus-iso8859-5-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-5
+terminus-iso8859-5-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-5
+terminus-iso8859-5-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-5
+terminus-iso8859-5-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-5
+terminus-iso8859-5-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-5
+terminus-iso8859-7-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-7
+terminus-iso8859-7-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-7
+terminus-iso8859-7-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-7
+terminus-iso8859-7-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-7
+terminus-iso8859-7-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-7
+terminus-iso8859-7-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-7
+terminus-iso8859-7-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-7
+terminus-iso8859-7-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-7
+terminus-iso8859-7-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-7
+terminus-iso8859-7-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-7
+terminus-iso8859-7-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-7
+terminus-iso8859-7-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-7
+terminus-iso8859-7-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-7
+terminus-iso8859-7-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-7
+terminus-iso8859-7-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-7
+terminus-iso8859-7-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-7
+terminus-iso8859-7-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-7
+terminus-iso8859-7-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-7
+terminus-iso8859-9-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-9
+terminus-iso8859-9-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-9
+terminus-iso8859-9-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-9
+terminus-iso8859-9-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-9
+terminus-iso8859-9-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-9
+terminus-iso8859-9-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-9
+terminus-iso8859-9-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-9
+terminus-iso8859-9-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-9
+terminus-iso8859-9-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-9
+terminus-iso8859-9-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-9
+terminus-iso8859-9-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-9
+terminus-iso8859-9-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-9
+terminus-iso8859-9-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-9
+terminus-iso8859-9-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-9
+terminus-iso8859-9-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-9
+terminus-iso8859-9-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-9
+terminus-iso8859-9-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-9
+terminus-iso8859-9-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-9
+terminus-iso8859-13-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-13
+terminus-iso8859-13-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-13
+terminus-iso8859-13-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-13
+terminus-iso8859-13-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-13
+terminus-iso8859-13-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-13
+terminus-iso8859-13-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-13
+terminus-iso8859-13-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-13
+terminus-iso8859-13-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-13
+terminus-iso8859-13-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-13
+terminus-iso8859-13-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-13
+terminus-iso8859-13-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-13
+terminus-iso8859-13-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-13
+terminus-iso8859-13-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-13
+terminus-iso8859-13-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-13
+terminus-iso8859-13-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-13
+terminus-iso8859-13-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-13
+terminus-iso8859-13-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-13
+terminus-iso8859-13-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-13
+terminus-iso8859-15-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-15
+terminus-iso8859-15-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-15
+terminus-iso8859-15-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-15
+terminus-iso8859-15-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-15
+terminus-iso8859-15-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-15
+terminus-iso8859-15-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-15
+terminus-iso8859-15-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-15
+terminus-iso8859-15-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-15
+terminus-iso8859-15-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-15
+terminus-iso8859-15-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-15
+terminus-iso8859-15-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-15
+terminus-iso8859-15-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-15
+terminus-iso8859-15-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-15
+terminus-iso8859-15-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-15
+terminus-iso8859-15-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-15
+terminus-iso8859-15-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-15
+terminus-iso8859-15-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-15
+terminus-iso8859-15-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-15
+terminus-iso8859-16-12	-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-16
+terminus-iso8859-16-14	-xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-16
+terminus-iso8859-16-16	-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso8859-16
+terminus-iso8859-16-18	-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso8859-16
+terminus-iso8859-16-20	-xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso8859-16
+terminus-iso8859-16-22	-xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso8859-16
+terminus-iso8859-16-24	-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso8859-16
+terminus-iso8859-16-28	-xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso8859-16
+terminus-iso8859-16-32	-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso8859-16
+terminus-iso8859-16-bold-12	-xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-16
+terminus-iso8859-16-bold-14	-xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-16
+terminus-iso8859-16-bold-16	-xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso8859-16
+terminus-iso8859-16-bold-18	-xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso8859-16
+terminus-iso8859-16-bold-20	-xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso8859-16
+terminus-iso8859-16-bold-22	-xos4-terminus-bold-r-normal--22-220-72-72-c-110-iso8859-16
+terminus-iso8859-16-bold-24	-xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso8859-16
+terminus-iso8859-16-bold-28	-xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso8859-16
+terminus-iso8859-16-bold-32	-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso8859-16
+!! /etc/X11/fonts/X11R7/misc/xfonts-intl-european.alias
+a14 -ETL-Fixed-Medium-R-Normal--14-140-72-72-C-70-ISO8859-1
+a16 -ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-ISO8859-1
+a18 -ETL-Fixed-Medium-R-Normal--18-180-72-72-C-90-ISO8859-1
+a24 -ETL-Fixed-Medium-R-Normal--24-240-72-72-C-120-ISO8859-1
+-ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-GOST19768.74-1 -ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-KOI8-R
+-ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-KOI8-1 -ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-KOI8-R
