@@ -1,4 +1,4 @@
-FROM mrorgues:libreoffice
+FROM mrorgues/libreoffice
 LABEL github "https://github.com/mrorgues"
 
 
@@ -8,7 +8,7 @@ LABEL github "https://github.com/mrorgues"
 # *** Run Libre Office desktop app in a container ***
 # Access: http://localhost:6080
 #
-# docker run --rm -it \
+# docker run --rm -d \
 #   --device /dev/dri \
 #   --device /dev/snd \
 #   -v /dev/shm:/dev/shm \
@@ -27,14 +27,17 @@ LABEL github "https://github.com/mrorgues"
 # Libre Office #
 #==============#
 EXPOSE 6080
-COPY supervisord.conf /root/supervisord.conf
+COPY resources/supervisord.conf /root/supervisord.conf
+COPY resources/icon.ico /opt/noVNC/app/images/icons/icon.ico
+COPY resources/index.html /tmp/index.html
 ENV DISPLAY=:0 \
     SCREEN=0 \
     SCREEN_WIDTH=1280 \
     SCREEN_HEIGHT=1024 \
     SCREEN_DEPTH=24 \
     LOCAL_PORT=5900 \
-    TARGET_PORT=6080
+    TARGET_PORT=6080 \
+    APPLICATION_NAME=LibreOffice
 RUN apt-get update && \
     apt-get install -qqy --no-install-recommends \
         net-tools \
@@ -48,7 +51,9 @@ RUN apt-get update && \
     mkdir -p /opt/noVNC/utils/websockify && \
     wget -qO- "https://github.com/kanaka/noVNC/tarball/master" | tar -zx --strip-components=1 -C /opt/noVNC && \
     wget -qO- "https://github.com/kanaka/websockify/tarball/master" | tar -zx --strip-components=1 -C /opt/noVNC/utils/websockify && \
-    ln -s /opt/noVNC/vnc.html /opt/noVNC/index.html
+    mv /tmp/index.html /opt/noVNC/index.html && \
+    sed -i 's,<title>noVNC</title>,<title>'$APPLICATION_NAME'</title>,g' /opt/noVNC/index.html && \
+    sed -i 's,document.title = e.detail.name + " - noVNC";,document.title = "'$APPLICATION_NAME'";,g' /opt/noVNC/app/ui.js
 
 
 #=============#
