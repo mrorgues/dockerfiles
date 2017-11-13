@@ -54,7 +54,7 @@ RUN apt-get update && \
 #===========#
 # Mintstick #
 #===========#
-ENV VERSION 1.3.3
+ENV VERSION 1.3.5
 ENV DOWNLOAD_URL http://packages.linuxmint.com/pool/main/m/mintstick/mintstick_${VERSION}_all.deb
 RUN buildDeps='curl' && \
     set -x && \
