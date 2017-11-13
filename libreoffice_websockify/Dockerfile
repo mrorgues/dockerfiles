@@ -1,4 +1,4 @@
-FROM mrorgues:libreoffice
+FROM mrorgues/libreoffice
 LABEL github "https://github.com/mrorgues"
 
 
