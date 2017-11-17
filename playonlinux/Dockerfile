@@ -38,16 +38,16 @@ RUN dpkg --add-architecture i386 && \
     apt-get update -qq && \
     echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
     apt-get install -qqy \
-        winehq-stable \
+        wine-staging \
         ttf-mscorefonts-installer && \
     apt-get install -qqy \
+        faketime \
         gettext \
         gnome-keyring:i386 \
         libcanberra-gtk-module \
         netcat \
         playonlinux \
         p11-kit-modules:i386 \
-        wine32 \
         winbind && \
     wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && \
     chmod +x winetricks && \
