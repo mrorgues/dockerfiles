@@ -67,4 +67,5 @@ RUN dpkg --add-architecture i386 && \
 #=============#
 ENV USER root
 ENV WINEPREFIX /root/.wine
+WORKDIR /root
 ENTRYPOINT ["/usr/bin/playonlinux"]
