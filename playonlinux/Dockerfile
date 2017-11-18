@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:trusty
 LABEL github "https://github.com/mrorgues"
 
 
@@ -25,21 +25,21 @@ LABEL github "https://github.com/mrorgues"
 #=============#
 ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg --add-architecture i386 && \
-    sed -i 's,deb http://deb.debian.org/debian jessie main,deb http://deb.debian.org/debian jessie main non-free contrib,g' /etc/apt/sources.list && \
     apt-get update -qq && \
     apt-get install -qqy \
         bzip2 \
         apt-transport-https \
         wget && \
     wget -q "https://dl.winehq.org/wine-builds/Release.key" -O- | apt-key add - && \
-	echo 'deb https://dl.winehq.org/wine-builds/debian/ jessie main' >> /etc/apt/sources.list.d/wine.list && \
+	echo 'deb https://dl.winehq.org/wine-builds/ubuntu/ trusty main' >> /etc/apt/sources.list.d/wine.list && \
     wget -q "http://deb.playonlinux.com/public.gpg" -O- | apt-key add - && \
-    echo 'deb http://deb.playonlinux.com/ jessie main' >> /etc/apt/sources.list.d/playonlinux.list && \
+    echo 'deb http://deb.playonlinux.com/ trusty main' >> /etc/apt/sources.list.d/playonlinux.list && \
     apt-get update -qq && \
     echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
     apt-get install -qqy \
         wine-staging \
         ttf-mscorefonts-installer && \
+    export PATH="/opt/wine-staging/bin:$PATH" && \
     apt-get install -qqy \
         faketime \
         gettext \
@@ -52,10 +52,6 @@ RUN dpkg --add-architecture i386 && \
     wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && \
     chmod +x winetricks && \
     mv winetricks /usr/bin/winetricks && \
-    apt-get install -qqy --no-install-recommends \
-        libgl1-mesa-dri:i386 \
-        libgl1-mesa-glx:i386 \
-        xserver-xorg-core:i386 && \
     rm -rf /var/lib/apt/lists/* && \
     sed -i 's/encoding = \"ascii\"/encoding = \"utf-8\"/g' /usr/lib/python2.7/site.py && \
     sed -i 's,exit,,g' /usr/share/playonlinux/lib/sources && \
