@@ -37,8 +37,10 @@ RUN dpkg --add-architecture i386 && \
     apt-get update -qq && \
     echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
     apt-get install -qqy \
-        wine-staging \
-        ttf-mscorefonts-installer && \
+        ttf-mscorefonts-installer \ 
+	wine-gecko \ 
+	wine-mono && \
+	wine-staging && \
     echo export PATH="/opt/wine-staging/bin:$PATH" >> /root/.bashrc && \
     apt-get install -qqy \
         faketime \
