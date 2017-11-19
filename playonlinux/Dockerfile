@@ -38,8 +38,6 @@ RUN dpkg --add-architecture i386 && \
     echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
     apt-get install -qqy \
         ttf-mscorefonts-installer \ 
-	wine-gecko \ 
-	wine-mono && \
 	wine-staging && \
     echo export PATH="/opt/wine-staging/bin:$PATH" >> /root/.bashrc && \
     apt-get install -qqy \
