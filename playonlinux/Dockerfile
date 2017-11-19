@@ -39,15 +39,14 @@ RUN dpkg --add-architecture i386 && \
     apt-get install -qqy \
         wine-staging \
         ttf-mscorefonts-installer && \
-    export PATH="/opt/wine-staging/bin:$PATH" && \
+    echo export PATH="/opt/wine-staging/bin:$PATH" >> /root/.bashrc && \
     apt-get install -qqy \
         faketime \
         gettext \
-        gnome-keyring:i386 \
+        gnome-keyring \
         libcanberra-gtk-module \
         netcat \
         playonlinux \
-        p11-kit-modules:i386 \
         winbind && \
     wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && \
     chmod +x winetricks && \
