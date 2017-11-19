@@ -39,7 +39,6 @@ RUN dpkg --add-architecture i386 && \
     apt-get install -qqy \
         ttf-mscorefonts-installer \ 
 	wine-staging && \
-    echo export PATH="/opt/wine-staging/bin:$PATH" >> /root/.bashrc && \
     apt-get install -qqy \
         faketime \
         gettext \
@@ -55,6 +54,7 @@ RUN dpkg --add-architecture i386 && \
     sed -i 's/encoding = \"ascii\"/encoding = \"utf-8\"/g' /usr/lib/python2.7/site.py && \
     sed -i 's,exit,,g' /usr/share/playonlinux/lib/sources && \
     sed -i 's,if(os.popen("id -u").read() == "0\\n" or os.popen("id -u").read() == "0"):,if(os.popen("id -u").read() == "100000\\n" or os.popen("id -u").read() == "100000"):,g' /usr/share/playonlinux/python/mainwindow.py
+ENV PATH /opt/wine-staging/bin:$PATH
 
 
 #=============#
