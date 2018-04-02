@@ -28,6 +28,7 @@ RUN apt-get update && \
     apt-get install -y \
         coreutils \
         dbus-x11 \
+        gir1.2-glib-2.0 \
         gir1.2-gtk-3.0 \
         gir1.2-polkit-1.0 \
         libcanberra-gtk3-module \
@@ -42,9 +43,10 @@ RUN apt-get update && \
         python-glade2 \
         python-parted \
         gir1.2-udisks-2.0 \
+        gir1.2-xapp-1.0 \
         udisks2 \
         util-linux \
-        xdg-utils \
+        xdg-utils
         --no-install-recommends && \
     dbus-uuidgen --ensure=/etc/machine-id && \
     ln -sf /etc/machine-id /var/lib/dbus/machine-id && \
