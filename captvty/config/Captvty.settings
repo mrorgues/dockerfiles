@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <maxRateFactor>5</maxRateFactor>
+  <playerPaths></playerPaths>
+  <maxRateEnabled>False</maxRateEnabled>
+  <remuxEnabled>False</remuxEnabled>
+  <downloadLocation>videos</downloadLocation>
+  <maxJobs>0</maxJobs>
+  <recordingPaddingEnd>0</recordingPaddingEnd>
+  <bandwidth>0</bandwidth>
+  <windowMetrics></windowMetrics>
+  <remuxFormats></remuxFormats>
+  <maxJobsEnabled>False</maxJobsEnabled>
+  <recordingPaddingStart>0</recordingPaddingStart>
+  <recordingPaddingEnabled>False</recordingPaddingEnabled>
+  <windowState></windowState>
+</settings>
