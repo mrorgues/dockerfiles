@@ -27,6 +27,9 @@ RUN apt-get update -qq && \
         libwine-gecko-2.21 \
         mesa-utils \
         unzip && \
+    apt-get install -qqy \
+        libp11-kit-gnome-keyring:i386 \
+        p11-kit:i386 && \
     DOWNLOAD_LINK=$(curl -c /tmp/cookie http://v3.captvty.fr/ | sed -n 's/.*href="\([^"]*\).*/\1/p' | grep zip) && \
     DOWNLOAD_LINK="http:"${DOWNLOAD_LINK} && \
     curl -fLo /tmp/captvty.zip  -b /tmp/cookie ${DOWNLOAD_LINK} && \
