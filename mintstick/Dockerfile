@@ -46,7 +46,7 @@ RUN apt-get update && \
         gir1.2-xapp-1.0 \
         udisks2 \
         util-linux \
-        xdg-utils
+        xdg-utils \
         --no-install-recommends && \
     dbus-uuidgen --ensure=/etc/machine-id && \
     ln -sf /etc/machine-id /var/lib/dbus/machine-id && \
