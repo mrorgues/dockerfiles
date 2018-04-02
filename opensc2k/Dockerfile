@@ -41,6 +41,17 @@ RUN apt-get update -y -qq && \
     cd /root;git clone https://github.com/rage8885/OpenSC2K;cd OpenSC2K;yarn install
 
 
+#=======================#
+# Fix: Azerty keyboards #
+#=======================#
+ENV KEYBOARD_TYPE="AZERTY"
+COPY config/change_controls_for_azerty_keyboards.sh /tmp/change_controls_for_azerty_keyboards.sh
+RUN chmod +x /tmp/change_controls_for_azerty_keyboards.sh && \
+    bash /tmp/change_controls_for_azerty_keyboards.sh && \
+    rm /tmp/change_controls_for_azerty_keyboards.sh
+
+
+
 #=============#
 # Here we go! #
 #=============#
