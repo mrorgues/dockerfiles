@@ -50,7 +50,7 @@ RUN apt-get update -qq && \
     sed -i 's,ZSH_THEME="robbyrussell",ZSH_THEME="agnoster",g' $HOME/.zshrc && \
     sed -i 's,prompt_segment black default "%(!.%{%F{yellow}%}.)$USER@%m",# prompt_segment black default "%(!.%{%F{yellow}%}.)$USER@%m",g' $HOME/.oh-my-zsh/themes/agnoster.zsh-theme && \
     sed -i 's,\[\[ $UID -eq 0 \]\],# [[ $UID -eq 0 \]\],g' $HOME/.oh-my-zsh/themes/agnoster.zsh-theme && \
-    echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> .zshrc
+    echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> $HOME/.zshrc
 
 
 #=============#
