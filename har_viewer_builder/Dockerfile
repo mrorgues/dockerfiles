@@ -8,7 +8,7 @@ LABEL github "https://github.com/mrorgues"
 # *** Create a tarball ***
 #
 # 1. chmod +x create_tarball.sh
-# 2. ./create_tarball.sh.sh
+# 2. ./create_tarball.sh
 #
 # *** Related Projects ***
 #
