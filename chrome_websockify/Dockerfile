@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:cosmic
 LABEL github "https://github.com/mrorgues"
 
 
@@ -17,6 +17,7 @@ LABEL github "https://github.com/mrorgues"
 #   -e "SCREEN_WIDTH=1920" \
 #   -e "SCREEN_HEIGHT=1080" \
 #   -e "SCREEN_DEPTH=24" \
+#   -p 6080:6080 \
 #   --name chrome_websockify \
 #   mrorgues/chrome_websockify
 
