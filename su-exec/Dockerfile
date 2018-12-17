@@ -12,6 +12,7 @@ LABEL github "https://github.com/mrorgues"
 # # Dockerfile
 # 
 # FROM mrorgues/su-exec AS su-exec
+# FROM SOME_IMAGE
 # USER root
 # COPY --from=su-exec --chown=root:root /sbin/su-exec /sbin/su-exec
 # RUN chmod 755 /usr/local/bin/su-exec
