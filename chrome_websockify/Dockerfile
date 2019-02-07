@@ -70,7 +70,6 @@ RUN touch /etc/default/google-chrome && \
 EXPOSE 6080
 COPY resources/supervisord.conf /root/supervisord.conf
 COPY resources/icon.ico /opt/noVNC/app/images/icons/icon.ico
-COPY resources/index.html /tmp/index.html
 ENV DISPLAY=:0 \
     SCREEN=0 \
     SCREEN_WIDTH=1280 \
@@ -91,7 +90,10 @@ RUN apt-get update && \
     mkdir -p /opt/noVNC/utils/websockify && \
     wget -qO- "https://github.com/kanaka/noVNC/tarball/master" | tar -zx --strip-components=1 -C /opt/noVNC && \
     wget -qO- "https://github.com/kanaka/websockify/tarball/master" | tar -zx --strip-components=1 -C /opt/noVNC/utils/websockify && \
-    mv /tmp/index.html /opt/noVNC/index.html && \
+    cp /opt/noVNC/vnc.html /opt/noVNC/index.html && \
+    sed -i 's/<link rel="icon"/<!-- <link rel="icon"/g' /opt/noVNC/index.html && \
+    sed -i -E 's,href="app/images/icons/novnc(.*).png">,href="app/images/icons/novnc-16x16.png"> -->,g' /opt/noVNC/index.html && \
+    sed -i '/<!-- Icons/a <link rel="icon" href="app/images/icons/icon.ico">' /opt/noVNC/index.html && \
     sed -i 's,<title>noVNC</title>,<title>'$APPLICATION_NAME'</title>,g' /opt/noVNC/index.html && \
     sed -i 's,document.title = e.detail.name + " - noVNC";,document.title = "'$APPLICATION_NAME'";,g' /opt/noVNC/app/ui.js
 
