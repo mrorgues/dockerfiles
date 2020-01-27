@@ -1,4 +1,4 @@
-FROM mrorgues/playonlinux
+FROM mrorgues/wine
 LABEL github "https://github.com/mrorgues"
 
 
@@ -24,7 +24,8 @@ ENV WINEARCH=win64 \
     PATH=$PATH:/opt/captvty
 RUN apt-get update -qq && \
     apt-get install -qqy \
-        libwine-gecko-2.21 \
+        curl \
+        libwine \
         mesa-utils \
         unzip && \
     apt-get install -qqy \
