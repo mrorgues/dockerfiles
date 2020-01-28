@@ -20,7 +20,7 @@ LABEL github "https://github.com/mrorgues"
 #=========#
 # Captvty #
 #=========#
-ENV WINEARCH=win64 \
+ENV WINEARCH=win32 \
     PATH=$PATH:/opt/captvty
 RUN apt-get update -qq && \
     apt-get install -qqy \
